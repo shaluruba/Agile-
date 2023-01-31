@@ -1,0 +1,104 @@
+
+#main-div {
+    min-height: 300px;
+    padding: 2%;
+    margin: 2%;
+    box-sizing: border-box;
+    background-color: lightgray;
+    margin-left: 5%;
+    width: 50%;
+}
+.op1 {
+    width: 25%;
+    background-color: aqua;
+    min-height: 100px;
+    float: left;
+    
+}
+.op2 {
+    width: 72%;
+    min-height: 100px;
+    background-color: bisque;
+    float: right;
+    
+}
+.op3 {
+    width: 100%;
+    min-height: 200px;
+    background-color: brown;
+    margin-top: 18%;
+   
+}
+.op4 {
+    width: 32%;
+    min-height: 100px;
+    background-color: blueviolet;
+    float: left;
+    margin-top: 2%;
+}
+.op5{
+    width: 32%;
+    min-height: 100px;
+    background-color: rgb(22, 180, 201);
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.op6{
+    width: 32%;
+    min-height: 100px;
+    background-color: rgb(35, 214, 18);
+    float: right;
+    margin-top: 2%;
+}
+.op7{
+    width: 60%;
+    min-height: 100px;
+    background-color: rgb(187, 28, 153);
+    float: left;
+    margin-top: 2%;
+}
+.op8{
+    width: 37%;
+    min-height: 100px;
+    background-color: rgb(241, 48, 48);
+    float: right;
+    margin-top: 2%;
+}
+.op9 {
+    width: 25%;
+    min-height: 50px;
+    background-color: aquamarine;
+    float: left;
+    margin-top: 2%;
+}
+.op10 {
+    width: 20%;
+    min-height: 50px;
+    background-color: black;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.op11 {
+    width: 23%;
+    min-height: 50px;
+    background-color: coral;
+    float: right;
+    margin-top: 2%;
+    
+}
+.op12 {
+    width: 25%;
+    min-height: 50px;
+    background-color: darkcyan;
+    float: right;
+    margin-top: 2%;
+    margin-right: 2%;
+}
+.op13{
+    width: 100%;
+    min-height: 25px;
+    background-color: crimson;
+    margin-top: 48%;
+}
