@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+#main-layout {
+    width: 800px;
+    height: 500px;
+    background-color: rgba(141, 161, 216, 0.815);
+    border-radius: 2%;
+    margin-left: 25%;
+    margin-top: 2%;
+    color: rgba(62, 97, 194, 0.815);
+    
+}
+.left {
+    float: left;
+    width: 20%;
+    height: 93%;
+    margin: 5px;
+    background-color: rgb(252, 252, 252);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding-left: 2%;
+    padding-top: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+}
+.name {
+    float: right;    
+    margin-top: 5%;
+    font-size: 15px
+}
+img {
+    width: 53px;
+    height: 53px;
+    float: left;
+    margin-top: 0%;
+    border-radius: 50%;
+}
+hr {
+    width: 150px;
+    height: 1px;
+    background-color: rgba(141, 161, 216, 0.815);
+    float: left;
+    
+    margin-top: 20%;
+}
+ul, li{
+    padding: 2%;
+    margin-left: 30px;
+    font-size: large;
+}
+.left li{
+    padding-top: 10px;
+}
+ul{
+    padding-top: 150px;
+    font-size: large;
+}
+.schedule{
+    font-size: large;
+    padding-top: 15px;
+    margin-left: 40px;
+}
+.set {
+    font-size: large;
+    padding-top: 30px;
+    margin-left: 40px;
+}
+.right{
+    margin-left: 250px;
+    color: white;
+    word-spacing: 3px;
+}
+p{
+    font-size: larger;
+    padding-top: 10%;
+}
+h3{
+    font-size: x-large;
+}
+
+input{
+    margin-top: 4%;
+    width: 450px;
+    padding-top: 3%;
+    border-radius: .6em;
+    border: 0ch;
+    padding-bottom: 1%;
+}
+input::placeholder {
+    padding: 10px;
+    padding-bottom: 10px;
+    
+}
+.wrk {
+    margin-top: 5%;
+    
+}
