@@ -1,0 +1,42 @@
+body {
+    background: #808000;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.box-one {
+    border: solid;
+    width: 100px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-two {
+    border: solid;
+    width: 100px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-three {
+    border: solid;
+    width: 100px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.box-four {
+    border: solid;
+    width: 100px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

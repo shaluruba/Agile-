@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>vowel based background</title>
+    <script>
+        function changeBackground(li) {
+            let firstLet = li.innerHTML[0];
+            if (firstLet == 'A' || firstLet == 'E' || firstLet == 'I' || firstLet == 'O' || firstLet == 'U') {
+                li.style.background = 'red';
+            } else {
+                li.style.background = 'green';
+            }
+        }
+    </script>
+</head>
+
+<body>
+    <ol>
+        <li onclick="changeBackground(this)">Shalu</li>
+        <li onclick="changeBackground(this)">Ruba</li>
+        <li onclick="changeBackground(this)">Ajith</li>
+        <li onclick="changeBackground(this)">Vijay</li>
+        <li onclick="changeBackground(this)">Oliver</li>
+        <li onclick="changeBackground(this)">Evanjalin</li>
+        <li onclick="changeBackground(this)">Irin</li>
+        <li onclick="changeBackground(this)">Priya</li>
+        <li onclick="changeBackground(this)">Aswin</li>
+        <li onclick="changeBackground(this)">Ujin</li>
+    </ol>
+
+</body>
+
+</html>
