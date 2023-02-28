@@ -1,0 +1,31 @@
+.box {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 10px;
+  }
+  
+  #box1 {
+    background-color: blue;
+    text-align: center;
+    margin-left: 50px;
+  }
+  
+  #box2 {
+    background-color: aqua;
+    text-align: center;
+    margin-left: 50px;
+  }
+  
+  #box3 {
+    background-color: purple;
+    text-align: center;
+    margin-left: 50px;
+  }
+  
+  #box4 {
+    background-color: yellow;
+    text-align: center;
+    margin-left: 50px;
+  }
+  
