@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count the bg Color</title>
+    <script>const colors = ["Red", "Black", "Green", "	Lime", "	Aqua", "Navy", "Yellow", "	Silver", "	HotPink", "	DarkOrange"]
+        // A variable that store 10 colors.
+        let count = {};
+        function changeBgColor() {
+            const colorChange = Math.floor(Math.random() * colors.length);
+            //math.floor method will give the non decimal value.
+            //math.random will change the color randomly in these code.
+            const randomColor = colors[colorChange];
+            if (count[randomColor] === undefined) {
+                count[randomColor] = 1;
+                //if the color is undefined it will be counted as 1.
+            } else {
+                count[randomColor]++;
+                //if the color is already defined it will plus the value.
+            }
+            document.body.style.background = randomColor;
+            document.getElementById("count").innerHTML =
+                "Color count: " + JSON.stringify(count);
+            //JSON.stringify will convert the javacript value into JSON string.
+        }
+    </script>
+</head>
+
+<body>
+    <button onClick="changeBgColor()" id="btn">Touch Me</button>
+    <div id="count"></div>
+</body>
+
+</html>
