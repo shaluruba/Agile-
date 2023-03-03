@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    background-color: lightgrey;
+    padding: 2%;
+    margin: 2%;
+    width: 50%;
+}
+
+img{
+    position: absolute;
+    left: 60%;
+    width: 200px;
+    height: 200px;
+    padding-top: 2%;
+}
+.p1 {
+    width: 70%;
+}
